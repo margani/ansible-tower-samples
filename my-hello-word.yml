@@ -1,0 +1,7 @@
+- name: My Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message from My Playbook
+      debug:
+        msg: "Hello World! from my playbook"
+
